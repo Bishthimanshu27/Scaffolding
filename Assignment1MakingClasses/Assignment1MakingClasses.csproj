@@ -197,6 +197,7 @@
     <Compile Include="Controllers\CarsController.cs" />
     <Compile Include="Controllers\HousesController.cs" />
     <Compile Include="Controllers\PeopleController.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -286,6 +287,11 @@
     <Content Include="Views\Houses\Details.cshtml" />
     <Content Include="Views\Houses\Edit.cshtml" />
     <Content Include="Views\Houses\Index.cshtml" />
+    <Content Include="Views\People1\Create.cshtml" />
+    <Content Include="Views\People1\Delete.cshtml" />
+    <Content Include="Views\People1\Details.cshtml" />
+    <Content Include="Views\People1\Edit.cshtml" />
+    <Content Include="Views\People1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
